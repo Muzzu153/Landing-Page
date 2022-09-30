@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* line-height: 2px; */        /* was causing issue of text overlapping in sign-up */
+    font-size:large;
+    font-family: 'Mali', cursive;
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+}
+
+.col-1{
+    padding-bottom: 20px;
+    background-color: rgb(49, 49, 49);
+}
+
+.nav-bar{
+    font-size: 20px;
+    display: flex;
+    border-bottom: 4px solid rgb(59, 59, 59);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 2px white;
+    /* position: fixed */
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    /* gap: 10px; */
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 50px;
+    margin-right: 8px;
+}
+
+ul{
+    display: flex;
+    gap: 35px;
+    margin-right: 35px;
+}
+
+li{
+    padding: 20px 0px 20px 0px ;
+}
+
+ul li a{
+    padding: 0px 0px 4px 0px ;
+    margin-bottom: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    transition: all 0.1s 0.1s linear;
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.col-1-1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 80px 30px 80px 30px;
+    color: white;
+    /* background-color: rgb(49, 49, 49); */
+    /* margin: 50px; */
+}
+
+.col-1-1 img{
+    height: 350px;
+    border-radius: 30px;
+}
+
+.col-1-1 img:hover{
+    transform: translateY(2);
+}
+
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 18px;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: flex-start; */
+    /* margin: 0px 100px 0px 100px; */
+    /* white-space: normal; */
+}
+
+.sign-up .title{
+    line-height: 1;
+    font-weight: bold;
+    font-size: 50px;
+    width: 600px;
+    /* line-height: 50px; */     /* for fixing the overlapping issue caused by line-height from body*/
+    /* white-space: normal; */   /* This too */
+    /* padding: 10px; */
+}
+
+.sign-up .description{
+    width: 400px;
+    /* line-height: 20px; */
+    /* white-space: normal; */
+    
+}
+
+.sign-up button{
+    /* margin-top: 20px; */
+    color: white;
+    padding: 10px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+}
+
+.col-2{
+    text-align: center;
+}
+
+.members-list{
+    display: flex;
+    justify-content:space-between
+    /* gap: 40px; */
+}
+
+.members img{
+    width: 200px;
+    height: 200px;
+}
