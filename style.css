@@ -21,7 +21,7 @@ body{
 }
 
 .nav-bar{
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     border-bottom: 4px solid rgb(59, 59, 59);
     color: white;
@@ -107,7 +107,7 @@ ul li a:hover{
 .sign-up .title{
     line-height: 1;
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 45px;
     width: 600px;
     /* line-height: 50px; */     /* for fixing the overlapping issue caused by line-height from body*/
     /* white-space: normal; */   /* This too */
@@ -116,7 +116,7 @@ ul li a:hover{
 
 .sign-up .description{
     width: 474px;
-    font-size: 25px;
+    font-size: 20px;
     /* line-height: 20px; */
     /* white-space: normal; */
     
@@ -146,7 +146,7 @@ ul li a:hover{
 }
 
 .members-text{
-    font-size: 55px;
+    font-size: 45px;
     padding: 0px 20px 50px 20px;
     color: white;
     font-weight: bolder;
@@ -157,7 +157,7 @@ ul li a:hover{
     justify-content:center;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 30px;          /* does te same job as (.members .name) */ 
+    font-size: 22px;          /* does te same job as (.members .name) */ 
     font-weight: bold;
     color: white;
     /* gap: px; */
@@ -165,7 +165,7 @@ ul li a:hover{
 }
 
 /* .members .name{
-    font-size: 30px;
+    font-size: 22px;
 } */
 
 .members{
@@ -211,7 +211,7 @@ ul li a:hover{
 
 .col-3{
     /* width: 100%; */
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 800;
     padding: 100px 400px 100px 200px;
     display: flex;
@@ -239,12 +239,12 @@ ul li a:hover{
 
 .contact-text h2{
     line-height: 1;
-    font-size: 40px;
+    font-size: 28px;
 }
 
 .contact-text p{
     padding-top: 10px;
-    font-size: 22px;
+    font-size: 15px;
 }
 
 .contact-btn{
@@ -254,7 +254,7 @@ ul li a:hover{
 .contact-btn button{
     margin-top: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     padding: 15px;
     width: 125px;
     border-radius: 8px;
@@ -271,7 +271,7 @@ ul li a:hover{
 
 footer{
     background-color: darkslategray;
-    font-size: 30px;
+    font-size: 15px;
     padding: 35px;
     color: white;
     text-align: center;
