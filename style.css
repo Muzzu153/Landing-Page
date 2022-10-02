@@ -1,284 +1,309 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    /* line-height: 2px; */        /* was causing issue of text overlapping in sign-up */
-    /* font-size:large; */
-    font-family: 'Mali', cursive;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    /* position: absolute; */
+body {
+  /* line-height: 2px; */ /* was causing issue of text overlapping in sign-up */
+  /* font-size:large; */
+  font-family: "Mali", cursive;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  /* position: absolute; */
 }
 
-.col-1{
-    padding-bottom: 20px;
-    background-color: rgb(26, 25, 25);
+.col-1 {
+  padding-bottom: 20px;
+  background-color: rgb(26, 25, 25);
 }
 
-.nav-bar{
-    font-size: 20px;
-    display: flex;
-    border-bottom: 4px solid rgb(59, 59, 59);
-    color: white;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    box-shadow: 2px white;
-    /* position: fixed */
+.nav-bar {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 4px solid rgb(59, 59, 59);
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 2px white;
+  /* position: fixed */
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    margin-left: 35px;
-    /* gap: 10px; */
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  /* gap: 10px; */
 }
 
-.logo:hover{
-    cursor: pointer;
+.logo:hover {
+  cursor: pointer;
 }
 
-.logo img{
-    width: 50px;
-    margin-right: 8px;
+.logo img {
+  width: 50px;
+  margin-right: 8px;
 }
 
-ul{
-    display: flex;
-    gap: 35px;
-    margin-right: 35px;
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  margin-right: 35px;
 }
 
-li{
-    padding: 20px 0px 20px 0px ;
+li {
+  padding: 20px 0px 20px 0px;
 }
 
-ul li a{
-    padding: 0px 0px 4px 0px ;
-    margin-bottom: 25px;
-    color: white;
-    text-decoration: none;
+ul li a {
+  padding: 0px 0px 4px 0px;
+  margin-bottom: 25px;
+  color: white;
+  text-decoration: none;
 }
 
-ul li a:hover{
-    transition: all 0.3s 0s ease;
-    border-bottom: 1px solid red;
-    color: red;
+ul li a:hover {
+  transition: all 0.3s 0s ease;
+  border-bottom: 1px solid red;
+  color: red;
 }
 
-.col-1-1{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-wrap: wrap;
-    gap: 50px;
-    padding: 100px 0px;
-    /* margin: 80px 30px; */
-    color: white;
-    /* background-color: rgb(49, 49, 49); */
-    /* margin: 50px; */
+.col-1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 0px;
+  /* margin: 80px 30px; */
+  color: white;
+  /* background-color: rgb(49, 49, 49); */
+  /* margin: 50px; */
 }
 
-.col-1-1 img{
-    height: 350px;
-    border-radius: 30px;
+.col-1-1 img {
+  width: 380px;
+  border-radius: 30px;
 }
 
 /* .col-1-1 img:hover{
     transform: translateY(2);
 } */
 
-.sign-up{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 50px 0px 18px;
-    flex-wrap: wrap;
-    gap: 10px;
-    /* justify-content: flex-start; */
-    /* margin: 0px 100px 0px 100px; */
-    /* white-space: normal; */
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px 0px 18px;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: flex-start; */
+  /* margin: 0px 100px 0px 100px; */
+  /* white-space: normal; */
 }
 
-.sign-up .title{
-    line-height: 1;
-    font-weight: bolder;
-    font-size: 45px;
-    width: 600px;
-    /* line-height: 50px; */     /* for fixing the overlapping issue caused by line-height from body*/
-    /* white-space: normal; */   /* This too */
-    /* padding: 10px; */
+.sign-up .title {
+  line-height: 1;
+  font-weight: bolder;
+  font-size: 40px;
+  /* width: 600px; */
+  /* line-height: 50px; */ /* for fixing the overlapping issue caused by line-height from body*/
+  /* white-space: normal; */ /* This too */
+  /* padding-right: 200px; */
 }
 
-.sign-up .description{
-    width: 474px;
-    font-size: 20px;
-    /* line-height: 20px; */
-    /* white-space: normal; */
-    
+.sign-up .description {
+  /* width: 474px; */
+  /* padding-right: 200px; */
+  font-size: 17px;
+  /* line-height: 20px; */
+  /* white-space: normal; */
 }
 
-.sign-up button{
-    margin-top: 5px;
-    color: white;
-    font-size: 18px;
-    padding: 15px;
-    width: 100px;
-    border-radius: 50px;
-    border: none;
-    background-color: blue;
+.sign-up button {
+  margin-top: 5px;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: blue;
 }
 
-.sign-up button:hover{
-     background-color: white;
-    color: blue;
-    transition: all 0.5s 0s ease;
+.sign-up button:hover {
+  background-color: white;
+  color: blue;
+  transition: all 0.5s 0s ease;
 }
 
-.col-2{
-    text-align: center;
-    background-color: rgb(114, 4, 4);
-    padding: 100px 0px 180px 0px;
+.col-2 {
+  text-align: center;
+  background-color: rgb(114, 4, 4);
+  padding: 100px 0px 180px 0px;
 }
 
-.members-text{
-    font-size: 45px;
-    padding: 0px 20px 50px 20px;
-    color: white;
-    font-weight: bolder;
+.members-text {
+  font-size: 40px;
+  padding: 0px 20px 50px 20px;
+  color: white;
+  font-weight: bolder;
 }
 
-.members-list{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 22px;          /* does te same job as (.members .name) */ 
-    font-weight: bold;
-    color: white;
-    /* gap: px; */
-    /* margin-top: 50px; */
+.members-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 18px; /* does te same job as (.members .name) */
+  font-weight: bold;
+  color: white;
+  /* gap: px; */
+  /* margin-top: 50px; */
 }
 
 /* .members .name{
     font-size: 22px;
 } */
 
-.members{
-    padding: 40px 50px 0px 50px;
+.members {
+  padding: 40px 50px 0px 50px;
 }
 
-.members img{
-    width: 200px;
-    height: 200px;
-    border: 5px groove snow;
-    border-radius: 20px;
+.members img {
+  width: 200px;
+  height: 200px;
+  border: 5px groove snow;
+  border-radius: 20px;
 }
 
-.members #itachi:hover{
-    box-shadow: 0 10px 30px rgb(3, 3, 32);
-    transform: scale(1.04);
-    transition: all 0.2s 0s linear;
+.members #itachi:hover {
+  box-shadow: 0 10px 30px rgb(3, 3, 32);
+  transform: scale(1.04);
+  transition: all 0.2s 0s linear;
 }
 
-.members #pain:hover{
-    box-shadow: 0 10px 30px orangered;
-    transform: scale(1.04);
-    transition: all 0.2s 0s linear;
+.members #pain:hover {
+  box-shadow: 0 10px 30px orangered;
+  transform: scale(1.04);
+  transition: all 0.2s 0s linear;
 }
 
-.members #deidara:hover{
-    box-shadow: 0 10px 30px yellow;
-    transform: scale(1.04);
-    transition: all 0.2s 0s linear;
+.members #deidara:hover {
+  box-shadow: 0 10px 30px yellow;
+  transform: scale(1.04);
+  transition: all 0.2s 0s linear;
 }
 
-.members #kisame:hover{
-    box-shadow: 0 10px 30px gainsboro;
-    transform: scale(1.04);
-    transition: all 0.2s 0s linear;
+.members #kisame:hover {
+  box-shadow: 0 10px 30px gainsboro;
+  transform: scale(1.04);
+  transition: all 0.2s 0s linear;
 }
 
-.members #tobi:hover{
-    box-shadow: 0 10px 30px red;
-    transform: scale(1.04);
-    transition: all 0.2s 0s linear;
+.members #tobi:hover {
+  box-shadow: 0 10px 30px red;
+  transform: scale(1.04);
+  transition: all 0.2s 0s linear;
 }
 
-.col-3{
-    /* width: 100%; */
-    font-size: 40px;
-    font-weight: 800;
-    padding: 100px 400px 100px 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: gray;
-    /* justify-content: center;0
+.col-3 {
+  /* width: 100vw; */
+  font-size: 40px;
+  font-weight: 800;
+  /* padding: 100px 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: gray;
+  /* justify-content: center;0
     align-items: center; */
-    /* justify-items: center;
+  /* justify-items: center;
     align-content: center; */
 }
 
-.contact{
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 100px 340px;
-    border: 2px solid black;
-    background-color: #712B75;
-    color: white;
-    gap: 20px;
+.col-3-padding {
+  padding: 100px;
 }
 
-.contact-text h2{
-    line-height: 1;
-    font-size: 28px;
+.col-4 {
+  width: 100%;
+  background-color: aqua;
 }
 
-.contact-text p{
-    padding-top: 10px;
-    font-size: 15px;
+.contact {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: 100px 340px; */
+  border: 2px solid black;
+  background-color: #712b75;
+  color: white;
+  gap: 20px;
 }
 
-.contact-btn{
-    padding: 15px 80px;
+.contact-text h2 {
+  line-height: 1;
+  font-size: 28px;
 }
 
-.contact-btn button{
-    margin-top: 5px;
-    color: white;
-    font-size: 14px;
-    padding: 15px;
-    width: 125px;
-    border-radius: 8px;
-    border: none;
-    background-color: blue;
-    
+.contact-text p {
+  padding-top: 10px;
+  font-size: 15px;
 }
 
-.contact button:hover{
-    background-color: white;
-    color: blue;
-    transition: all 0.5s 0s ease;
+.contact-btn {
+  padding: 15px 80px;
 }
 
-footer{
-    background-color: darkslategray;
-    font-size: 15px;
-    padding: 35px;
-    color: white;
-    text-align: center;
+.contact-btn button {
+  margin-top: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 15px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  background-color: blue;
 }
 
+.contact button:hover {
+  background-color: white;
+  color: blue;
+  transition: all 0.5s 0s ease;
+}
 
+footer {
+  background-color: darkslategray;
+  font-size: 12px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+}
 
+@media only screen and (max-width: 300px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
 
+@media only screen and (max-width: 450px){
+    .col-1-1 img{
+        width: 330px;
+    }
 
+    .col-3{
+        font-size: 24px;
+    }
 
+    .col-3-padding{
+        padding: 40px;
+    }
+}
